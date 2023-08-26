@@ -1,18 +1,17 @@
-import Race  from './Race';
+import Race from './Race';
 
-    class Halfling extends Race {
-        private _maxLifePoints = 60;
-        private static _createdInstances = 0;
+class Halfling extends Race {
+  private _maxLifePoints = 60;
+  private static _createdInstances = 0;
 
-        get maxLifePoints(): number {
-            return this._maxLifePoints;
-        }
+  get maxLifePoints(): number {
+    return this._maxLifePoints;
+  }
 
-        static get createdInstances(): number {
-            Halfling._createdInstances += 1;
-            return Halfling._createdInstances;
-        }
-
+  static createdRacesInstances(): number {
+    Halfling._createdInstances += 1;
+    return Halfling._createdInstances;
+  }
 }
 
 export default Halfling;

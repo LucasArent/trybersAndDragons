@@ -6,8 +6,8 @@ import Warrior from './Warrior';
 
 export default Archetype;
 export { 
-    Mage,
-    Necromancer,
-    Ranger,
-    Warrior,
+  Mage,
+  Necromancer,
+  Ranger,
+  Warrior,
 };

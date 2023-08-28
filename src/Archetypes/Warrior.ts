@@ -5,7 +5,7 @@ class Warrior extends Archetype {
   private _energy: EnergyType;
   constructor(name: string) {
     super(name);
-    this._energy = 'mana';
+    this._energy = 'stamina';
   }
 
   private static _createInstances = 0;
